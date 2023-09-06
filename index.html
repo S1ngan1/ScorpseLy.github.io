@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+  <link rel="stylesheet" href="./global.css" />
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="./body.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" />
+  <style>
+    .website-frame{
+      height: 2000px; 
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="website-frame">
+    <header>
+      <div class="logo-side">
+        <div class="the-museum-of">THE MUSEUM OF HO CHI MINH CITY</div>
+        <img class="museum-icon" alt="" src="./public/museum.svg" />
+      </div>
+      
+      <div class="search-container">
+        <input type="text" class="search-input" placeholder="Search">
+        <i class="fas fa-search search-icon"></i>
+      </div>
+    </header>
+    
+    <div class="photo-frame" id="slideshow">
+      <img class="slide" id="slide1" src="public/image1.webp" alt="Image 1" >
+      <img class="slide" src="public/image2.jpg" alt="Image 2">
+      <img class="slide" src="public/image3.jpg" alt="Image 3">
+    </div>
+    <div class="slideshow-button" id="prev-button" onclick="prevSlide()">&#10094;</div>
+    <div class="slideshow-button" id="next-button" onclick="nextSlide()">&#10095;</div>
+
+    <img class="g-mobiledata-badge-icon" alt="" src="./public/3g-mobiledata-badge.svg" />
+
+<!--     <img class="arrow-back-ios-icon" alt="" src="./public/arrow-back-ios.svg" />
+
+    <img class="arrow-forward-ios-icon" alt="" src="./public/arrow-forward-ios.svg" /> -->
+    <div class="navbar">
+      <div class="navbar-box"></div>
+      <div class="contact-information">
+        <a href="contactForm.html">CONTACT INFORMATION</a>
+      </div>
+      <div class="articles">
+        <b>ARTICLES </b>
+      </div>
+      <div class="activities">
+        <b class="button">ACTIVITIES</b>
+        <div class="dropdown-content">
+          <a href="#">Item 1</a>
+          <a href="#">Item 2</a>
+          <a href="#">Item 3</a>
+          <a href="#">Item 4</a>
+          <a href="#">Item 5</a>
+          <a href="#">Item 6</a>
+        </div>
+      </div>
+      <div class="news">
+        <b>NEWS</b>
+      </div>
+    </div>
+
+    <div class="body-section">
+      <div class="special-event">
+        <img class="special-event-child" alt="" src="./public/rectangle-3.svg" />
+    
+        <div class="background-find-more"></div>
+        <b class="find-more">FIND MORE</b>
+        <b class="bringing-saigons-communities-container">
+          <p class="bringing-saigons-communities">
+            Bringing Saigon’s communities closer together, Kính Vạn Hoa
+            Exhibition tackles Ho Chí Minh city’s most persistent problems
+            through multidimensional visualization,
+          </p>
+          <p class="bringing-saigons-communities">
+            from 3D animation to conceptual models. The exhibiton aim to
+            showcase students’ hard work from the course Capstone Studio 1
+            (Studio V), as well as to bring new
+          </p>
+          <p class="innovative-experiences">innovative experiences...</p>
+        </b>
+        <b class="in-order-to">In order to propagate and educate the national pride, the sense of
+          continuing the tradition of the Hero City, contributing to the
+          construction and defense of the Fatherland for pupils, students,
+          youth union members and all strata of the people. Based on
+          documents, images, and artifacts collected and displayed at...</b>
+        <b class="practically-and-effectively">Practically and effectively implementing Ho Chi Minh City’s 2020
+          theme “The year of promoting cultural activities and building a
+          civilized urban lifestyle ” as well as organizing activities to
+          preserve and promote the Cultural identity, towards building Ho Chi
+          Minh City – City of Culture , on the morning of July 23, 2020, the
+          Ho...</b>
+        <b class="joining-the-national">Joining the national atmosphere to celebrate the 50th anniversary
+          of the implementation of President Ho Chi Minh’s Will (1969 – 2019)
+          and the 14th anniversary of Vietnam Cultural Heritage Day (November
+          23, 2005 – November 23, 2019), The Cultural Heritage Association of
+          Ho Chi Minh City and the Ho Chi...</b>
+        <b class="exhibition-kinh-van">EXHIBITION: KINH VAN HOA</b>
+        <b class="content-of-the">CONTENT OF THE US EXHIBITION SET</b>
+        <b class="thematic-activity-southern">Thematic activity “Southern identity”</b>
+        <b class="don-ca-tai">Don ca tai tu performance “Following Uncle Ho’s Will”</b>
+        <div class="background-special-event"></div>
+        <b class="special-event1">
+          <p class="innovative-experiences">SPECIAL EVENT</p>
+        </b>
+      </div>
+      <div class="time-location-purchase-ticket">
+        <div class="book-ticket">
+          <div class="book-ticket-child" id="rectangle1"></div>
+          <a href="TicketForm.html" class="book-for-a" id="bOOKFORA">BOOK FOR A TICKET HERE!</a>
+        </div>
+        <div class="address">
+          <div class="address-child"></div>
+          <div class="address-65-ly-container">
+            <p class="opening-hours">ADDRESS</p>
+            <p class="innovative-experiences">
+              <b>65 LY TU TRONG, BEN NGHE</b>
+            </p>
+            <p class="innovative-experiences">
+              <b>WARD, DISTRICT 1, HCMC</b>
+            </p>
+          </div>
+          <img class="home-icon" alt="" src="./public/home.svg" />
+        </div>
+        <div class="open-time-section">
+          <div class="address-child"></div>
+          <div class="opening-hours-8-container">
+            <p class="opening-hours">OPENING HOURS</p>
+            <p class="innovative-experiences">
+              <b>8 a.m - 5 .m</b>
+            </p>
+            <p class="innovative-experiences">
+              <b>From Monday to Sunday</b>
+            </p>
+          </div>
+          <img class="alarm-icon" alt="" src="./public/home.svg" />
+        </div>
+      </div>
+      <div class="content">
+        <div class="photo-information">
+          <img class="waht-is-the-meaning-of-this" alt="" src="./public/waht-is-the-meaning-of-this.svg" />
+    
+          <img class="z3642461559776-b9c5b14fca1cec3-icon" alt=""
+            src="./public/z3642461559776-b9c5b14fca1cec31a80bf66379ee33a61067x800-1@2x.png" />
+    
+          <img class="title-background-icon" alt="" src="./public/title-background.svg" />
+    
+          <b class="special-exhibition-the">SPECIAL EXHIBITION: THE CULTURE OF BETEL</b>
+          <b class="exhibition">EXHIBITION</b>
+        </div>
+        <div class="photo-information1">
+          <img class="waht-is-the-meaning-of-this1" alt="" src="./public/waht-is-the-meaning-of-this.svg" />
+    
+          <img class="z3642461559776-b9c5b14fca1cec3-icon" alt="" src="./public/2768x614-1@2x.png" />
+    
+          <img class="title-background-icon" alt="" src="./public/title-background.svg" />
+    
+          <b class="journey-to-follow">JOURNEY TO FOLLOW HIS STEPS </b>
+          <b class="recent-news">RECENT NEWS</b>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+       <div class="footer">
+          <div class="contact">
+            <b>CONTACT</b>
+          </div>
+          <div class="policy">
+            <b>POLICY</b>
+          </div>
+          <div class="privacy">
+            <b>PRIVACY</b>
+          </div>
+        </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

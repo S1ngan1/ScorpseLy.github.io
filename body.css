@@ -1,0 +1,289 @@
+
+.the-museum-of {
+  position: absolute;
+  top: 1.88rem;
+  left: 5.63rem;
+}
+.logo-side,
+.museum-icon {
+  position: absolute;
+  height: 3.81rem;
+}
+.museum-icon {
+  top: 1.13rem;
+  left: 0.88rem;
+  width: 3.81rem;
+}
+.logo-side {
+  top: 0;
+  left: 5.75rem;
+  width: 35rem;
+  font-size: 1.13rem;
+}
+.banner-icon {
+  position: absolute;
+  top: 12.81rem;
+  left: 4.81rem;
+  width: 80.63rem;
+  height: 25rem;
+  object-fit: cover;
+}
+.search-function-icon {
+  position: absolute;
+  top: 1rem;
+  left: 55.69rem;
+  width: 31rem;
+  height: 3.13rem;
+}
+.special-event-child {
+  position: absolute;
+  top: 2.5rem;
+  left: 0;
+  width: 65.63rem;
+  height: 32.06rem;
+}
+.background-find-more {
+  position: absolute;
+  top: 31rem;
+  left: 23.75rem;
+  background-color: var(--color-orange);
+  width: 15rem;
+  height: 2.5rem;
+}
+.find-more {
+  position: absolute;
+  top: 31.5rem;
+  left: 27.75rem;
+}
+.bringing-saigons-communities {
+  margin-block-start: 0;
+  margin-block-end: 2px;
+}
+.innovative-experiences {
+  margin: 0;
+}
+.bringing-saigons-communities-container,
+.in-order-to,
+.joining-the-national,
+.practically-and-effectively {
+  position: absolute;
+  top: 6.69rem;
+  left: 3.63rem;
+  font-size: var(--font-size-xs);
+  display: inline-block;
+  width: 60rem;
+}
+.in-order-to,
+.joining-the-national,
+.practically-and-effectively {
+  top: 13.75rem;
+}
+.joining-the-national,
+.practically-and-effectively {
+  top: 20.81rem;
+}
+.joining-the-national {
+  top: 27.88rem;
+}
+.content-of-the,
+.don-ca-tai,
+.exhibition-kinh-van,
+.thematic-activity-southern {
+  position: absolute;
+  top: 3.94rem;
+  left: 3.63rem;
+  color: var(--color-mediumslateblue);
+}
+.content-of-the,
+.don-ca-tai,
+.thematic-activity-southern {
+  top: 11rem;
+}
+.don-ca-tai,
+.thematic-activity-southern {
+  top: 18.06rem;
+}
+.don-ca-tai {
+  top: 25.13rem;
+}
+.background-special-event {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #b4b4b4;
+  width: 12.5rem;
+  height: 2.5rem;
+}
+.special-event1 {
+  position: absolute;
+  top: 0.75rem;
+  left: 1.31rem;
+  display: inline-block;
+  width: 11.06rem;
+  height: 1.75rem;
+}
+.special-event {
+  position: absolute;
+  top: 34.75rem;
+  left: 0;
+  width: 65.63rem;
+  height: 34.56rem;
+}
+.book-for-a,
+.book-ticket-child {
+  position: absolute;
+  cursor: pointer;
+}
+.book-ticket-child {
+  top: 0;
+  left: 0;
+  background-color: var(--color-orange);
+  width: 18.5rem;
+  height: 3.13rem;
+}
+.book-for-a {
+  top: 0.81rem;
+  left: 0.94rem;
+}
+.address-child,
+.book-ticket {
+  position: absolute;
+  left: 0;
+  width: 18.5rem;
+}
+.book-ticket {
+  top: 37.88rem;
+  height: 3.13rem;
+  text-align: left;
+}
+.address-child {
+  top: 0;
+  background-color: var(--color-orange);
+  height: 16.06rem;
+}
+.address-65-ly-container,
+.home-icon {
+  position: absolute;
+  top: 8.94rem;
+  left: 0.63rem;
+}
+.home-icon {
+  top: 1.81rem;
+  left: 6.13rem;
+  width: 6.25rem;
+  height: 6.25rem;
+}
+.address {
+  position: absolute;
+  top: 19.06rem;
+  left: 0;
+  width: 18.5rem;
+  height: 16.06rem;
+}
+.opening-hours {
+  margin: 0;
+  font-weight: 800;
+}
+.alarm-icon,
+.opening-hours-8-container {
+  position: absolute;
+  top: 8.63rem;
+  left: 1.88rem;
+}
+.alarm-icon {
+  top: 1.19rem;
+  left: 6.13rem;
+  width: 6.25rem;
+  height: 6.25rem;
+}
+.open-time-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18.5rem;
+  height: 16.06rem;
+}
+.time-location-purchase-ticket {
+  position: absolute;
+  top: 0;
+  left: 67.56rem;
+  width: 18.5rem;
+  height: 41rem;
+  text-align: center;
+}
+.waht-is-the-meaning-of-this {
+  position: absolute;
+  top: 28.75rem;
+  left: 0;
+  width: 31.25rem;
+  height: 3.13rem;
+}
+.z3642461559776-b9c5b14fca1cec3-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 31.25rem;
+  height: 25.56rem;
+  object-fit: cover;
+}
+.title-background-icon {
+  position: absolute;
+  top: 25.56rem;
+  left: 0;
+  width: 31.25rem;
+  height: 3.13rem;
+}
+.exhibition,
+.special-exhibition-the {
+  position: absolute;
+  top: 26.38rem;
+  left: 0.69rem;
+}
+.exhibition {
+  top: 29.56rem;
+  color: var(--color-black);
+}
+.photo-information {
+  position: absolute;
+  top: 0;
+  left: 34.38rem;
+  width: 31.25rem;
+  height: 31.88rem;
+}
+.waht-is-the-meaning-of-this1 {
+  position: absolute;
+  top: 28.69rem;
+  left: 0;
+  width: 31.25rem;
+  height: 3.13rem;
+}
+.journey-to-follow,
+.recent-news {
+  position: absolute;
+  top: 26.38rem;
+  left: 1.31rem;
+}
+.recent-news {
+  top: 29.5rem;
+  color: var(--color-black);
+}
+.content,
+.photo-information1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 31.25rem;
+  height: 31.81rem;
+}
+.content {
+  width: 65.63rem;
+  height: 31.88rem;
+  color: var(--color-white);
+}
+.body-section {
+  position: absolute;
+  top: 35.69rem;
+  left: 1.88rem;
+  width: 86.06rem;
+  height: 69.31rem;
+}

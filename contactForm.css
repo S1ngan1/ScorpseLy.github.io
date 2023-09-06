@@ -1,0 +1,9 @@
+body {
+    overflow: scroll;
+    width: 100%;
+    height: 1250px;
+}
+
+.website-frame{
+    height: 1250px;
+}
