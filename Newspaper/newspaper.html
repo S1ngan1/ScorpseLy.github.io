@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="../global.css" />
+    <link rel="stylesheet" href="./newspaper.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" />
+    <style>
+      .logo-link:hover {
+        color: black;
+      }
+    </style>
+</head>
+
+<body>
+    <div class="website-frame">
+        <header>
+            <div class="logo-side">
+                <div class="the-museum-of"><a class="logo-link" href="../index.html">THE MUSEUM OF HO CHI MINH CITY</a></div>
+                <a href="../index.html"><img class="museum-icon" alt="" src="./public/museum.svg" /></a>
+            </div>
+    
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+        </header>
+        <div class="navbar">
+            <div class="navbar-box"></div>
+            <div class="contact-information">
+                <a href="../contactForm.html">CONTACT INFORMATION</a>
+            </div>
+            <div class="articles">
+                <b>ARTICLES </b>
+            </div>
+            <div class="activities">
+                <b class="button">ACTIVITIES</b>
+                <div class="dropdown-content">
+                    <a href="#">Item 1</a>
+                    <a href="#">Item 2</a>
+                    <a href="#">Item 3</a>
+                    <a href="#">Item 4</a>
+                    <a href="#">Item 5</a>
+                    <a href="#">Item 6</a>
+                </div>
+            </div>
+            <div class="news">
+                <a href="../News/news.html">NEWS</a>
+            </div>
+        </div>
+
+        <div class="news-page-detail-item"></div>
+        <div class="news-section">
+            <div class="chewing-betel-nuts-container">
+                <p class="chewing-betel-nuts">
+                    Chewing betel nuts is a long-standing traditional custom of the
+                    Vietnamese people, showing the culture of communication and
+                    behavior, and is the language of expressing feelings between people
+                    through the betel which binds family’s intimacy and friendship.
+                    Apart from the Vietnamese, many ethnic groups in different regions,
+                    as well as groups in some countries in the area, also have the
+                    custom of chewing betel. This obviously reflects the cross-cultural
+                    similarities. Currently, due to the cultural space, living
+                    environment, and the impact of other factors, there are
+                    dissimilarities in the chewing betel custom of each ethnic group.
+                </p>
+                <p class="chewing-betel-nuts">
+                    Through the various ups and downs of history, many old habits,
+                    customs, and practices have gradually changed. In this modern
+                    society, chewing betel is no longer a common practice in modern
+                    society. However, areca and betel nuts have long represented a
+                    tremendous value in terms of the compassionate behavior between
+                    people, as well as the warm and humanistic philosophy of life. The
+                    special exhibition of “Culture of Betel and Areca” introduces over
+                    250 artifacts and pictures about the culture of betel nuts and
+                    areca, along with various collections of betel-chewing utensils.
+                </p>
+                <ul class="time-of-exhibition-from-128">
+                    <li class="time-of-exhibition">
+                        Time of exhibition: from 12/8/2022 to 30/10/2022
+                    </li>
+                    <li>
+                        Location: The Museum of Ho Chi Minh City – 65 Ly Tu Trong Street,
+                        Ben Nghe Ward, District 1, Ho Chi Minh City.
+                    </li>
+                </ul>
+            </div>
+            <img class="z3642461559776-b9c5b14fca1cec3-icon" alt=""
+                src="./public/z3642461559776-b9c5b14fca1cec31a80bf66379ee33a6-2@2x.png" />
+        
+            <b class="special-exhibition-the-container">
+                <p class="special-exhibition">SPECIAL EXHIBITION:</p>
+                <p class="special-exhibition">THE CULTURE OF BETEL AND ARECA</p>
+            </b>
+        </div>
+        <div class="back-to-home-page" id="backToHomePage">
+            <div class="back-to-home-page-child"></div>
+            <div class="back-to-homepage">&lt;&lt; back to homepage</div>
+        </div>
+        </div>
+
+
+
+    </div>
+    <div class="footer">
+        <div class="contact">
+            <b>CONTACT</b>
+        </div>
+        <div class="policy">
+            <b>POLICY</b>
+        </div>
+        <div class="privacy">
+            <b>PRIVACY</b>
+        </div>
+    </div>
+    <script>
+        var cONTACTINFORMATIONText = document.getElementById("cONTACTINFORMATIONText");
+        if (cONTACTINFORMATIONText) {
+            cONTACTINFORMATIONText.addEventListener("click", function (e) {
+                // Please sync "CONTACT" to the project
+            });
+        }
+
+        var logoSideContainer = document.getElementById("logoSideContainer");
+        if (logoSideContainer) {
+            logoSideContainer.addEventListener("click", function (e) {
+                // Please sync "homepage" to the project
+            });
+        }
+
+        var backToHomePage = document.getElementById("backToHomePage");
+        if (backToHomePage) {
+            backToHomePage.addEventListener("click", function (e) {
+                // Please sync "homepage" to the project
+            });
+        }
+    </script>
+</body>
+
+</html>
