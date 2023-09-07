@@ -52,43 +52,6 @@ body{
     height: 65.81rem;
 }
 
-.logo-box {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: var(--color-gainsboro);
-}
-
-.the-museum-of {
-    position: absolute;
-    top: 1.88rem;
-    left: 5.63rem;
-}
-
-.logo-side,
-.museum-icon {
-    position: absolute;
-    height: 3.81rem;
-}
-
-.museum-icon {
-    top: 1.13rem;
-    left: 0.88rem;
-    width: 3.81rem;
-}
-
-.logo-side {
-    top: 0;
-    left: 5.81rem;
-    width: 35rem;
-    cursor: pointer;
-    font-size: var(--font-size-lg);
-}
-
 .news2 {
     position: absolute;
     top: 13.06rem;
@@ -242,4 +205,8 @@ body{
     width: 25rem;
     height: 16.13rem;
     font-size: var(--font-size-6xl);
+    cursor: pointer;
+}
+.choice-1, .choice-2, .sort-by-child{
+    display: none;
 }

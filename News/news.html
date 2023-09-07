@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="../global.css"/>
-    <link rel="stylesheet" href="./news.css" />
+    <link rel="stylesheet" href="news.css" />
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" />
     <style>
-    .logo-link:hover, .museum-activities:hover, .recent-news:hover ,div b:hover{
+    .logo-link:hover, .museum-activities:hover, .recent-news:hover , .news-1 *:hover, .news-2 *:hover, .news-3 *:hover, .news4 *:hover, .news2:hover{
         color: black;
     }
     </style>
@@ -121,5 +121,25 @@
     </div>
     <script src="script.js"></script>
 </body>
+<script>
+    const choice1 = document.querySelector(".choice-1");
+    const choice2 = document.querySelector(".choice-2");
+    const sortByChild = document.querySelector(".sort-by-child");
+    const sortByName = document.querySelector('.sort-by');
 
+    sortByName.addEventListener("click", function (e) {
+        if (choice1.style.display === "none") {
+            choice1.style.display = "block";
+            choice2.style.display = "block";
+            sortByChild.style.display = "block";
+        } 
+        else {
+            choice1.style.display = "none";
+            choice2.style.display = "none";
+            sortByChild.style.display = "none";
+        }
+    })
+
+
+</script>
 </html>
